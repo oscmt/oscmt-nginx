@@ -1,5 +1,5 @@
 upstream_django {
-	server unix:///home/django/oscmt/oscmt.sock
+	server unix:///var/www/oscmt/oscmt.sock
 }
 server {
 	# Ports to listen on, uncomment one.
@@ -7,7 +7,7 @@ server {
 	# listen 443 ssl http2;
 
 	# Server name to listen for
-	server_name oscmt.bifroe.st;
+	server_name .oscmt.bifroe.st;
 
 	# Paths to certificate files.
 	ssl_certificate /etc/ssl/oscmt.bifroe.st.crt;
@@ -25,12 +25,12 @@ server {
 
 	# Django media
 	location /media {
-		alias /home/django/oscmt/media;
+		alias /var/www/oscmt/media;
 	}
 
 	# Django static
 	location /static {
-		alias /home/django/oscmt/static;
+		alias /var/www/oscmt/static;
 	}
 
 	location / {
