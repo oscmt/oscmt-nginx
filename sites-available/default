@@ -1,4 +1,4 @@
-upstream_django {
+upstream django {
 	server unix:///var/www/oscmt/oscmt.sock
 }
 server {
