@@ -3,7 +3,7 @@
 
 # Except
 !.gitignore
-!oscmt
+!default
 !fastcgi-cache.com
 !multisite-subdirectory.com
 !multisite-subdomain.com
