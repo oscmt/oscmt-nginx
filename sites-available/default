@@ -25,12 +25,12 @@ server {
 
 	# Django media
 	location /media {
-		alias /var/www/oscmt/media;
+		alias /var/www/oscmt/oscmt/media;
 	}
 
 	# Django static
 	location /static {
-		alias /var/www/oscmt/static;
+		alias /var/www/oscmt/oscmt/static;
 	}
 
 	location / {
