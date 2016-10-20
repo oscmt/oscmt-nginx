@@ -1,5 +1,5 @@
 upstream django {
-	server unix:///var/www/oscmt/oscmt.sock
+	server unix:///var/www/oscmt/oscmt.sock;
 }
 server {
 	# Ports to listen on, uncomment one.
