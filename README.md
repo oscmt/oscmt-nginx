@@ -4,4 +4,4 @@ This repository contains the Nginx configurations used for oscmt. It is modelled
 
 ## Usage
 
-Contrary to Ashley's wonderful series I only use a single-site ssl setup for my application and therefore I don't use most of his stuff. This is really meant to be used in connection with the corresponding ansible role from [OSCMT](https://github.com/dmaendlen/oscmt).
+Contrary to Ashley's wonderful series I only use a single-site ssl setup for my application and therefore I don't use most of his stuff. This is really meant to be used in connection with the corresponding ansible role from [OSCMT](https://github.com/oscmt/oscmt).
